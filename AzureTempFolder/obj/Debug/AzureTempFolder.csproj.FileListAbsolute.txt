@@ -1,0 +1,11 @@
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.csproj.AssemblyReference.cache
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.exe.config
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.LoginForm.resources
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.MenuDiagnostic.resources
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.MenuForm.resources
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.MenuList.resources
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.Properties.Resources.resources
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.csproj.GenerateResource.cache
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.csproj.CoreCompileInputs.cache
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.exe
+D:\git_azure\AzureTempFolder\obj\Debug\AzureTempFolder.pdb
