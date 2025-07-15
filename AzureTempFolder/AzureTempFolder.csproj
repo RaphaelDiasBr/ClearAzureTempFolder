@@ -170,6 +170,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AzureTempFolder\AzureTempFolder.sln" />
     <Content Include="bin\Debug\AzureTempFolder.exe" />
     <Content Include="bin\Debug\AzureTempFolder.pdb" />
   </ItemGroup>
