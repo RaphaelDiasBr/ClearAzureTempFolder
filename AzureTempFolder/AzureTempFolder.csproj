@@ -99,15 +99,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AzureBlobHelper.cs" />
-    <Compile Include="LoginForm.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuDiagnostic.cs" />
+    <Compile Include="MenuDiagnostic.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuDiagnostic.Designer.cs">
       <DependentUpon>MenuDiagnostic.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuForm.cs" />
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuForm.Designer.cs">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </Compile>
@@ -142,7 +148,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="AzureTempFolder_TemporaryKey.pfx" />
+    <None Include="bin\Debug\AzureTempFolder.application" />
     <None Include="bin\Debug\AzureTempFolder.exe.config" />
+    <None Include="bin\Debug\AzureTempFolder.exe.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -171,8 +179,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AzureTempFolder\AzureTempFolder.sln" />
+    <Content Include="bin\Debug\ABCpdf.dll" />
+    <Content Include="bin\Debug\ABCpdf.xml" />
+    <Content Include="bin\Debug\app.publish\AzureTempFolder.exe" />
     <Content Include="bin\Debug\AzureTempFolder.exe" />
     <Content Include="bin\Debug\AzureTempFolder.pdb" />
+    <Content Include="bin\Debug\Microsoft.Azure.KeyVault.Core.dll" />
+    <Content Include="bin\Debug\Microsoft.Azure.KeyVault.Core.xml" />
+    <Content Include="bin\Debug\Microsoft.Azure.Storage.Blob.dll" />
+    <Content Include="bin\Debug\Microsoft.Azure.Storage.Blob.xml" />
+    <Content Include="bin\Debug\Microsoft.Azure.Storage.Common.dll" />
+    <Content Include="bin\Debug\Microsoft.Azure.Storage.Common.xml" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\Zapp.Core.dll" />
+    <Content Include="bin\Debug\Zapp.Data.dll" />
+    <Content Include="bin\Debug\Zapp.Entities.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
